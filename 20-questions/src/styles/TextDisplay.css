@@ -1,0 +1,12 @@
+/*--------------------------------------*\
+           TextDisplay : medium size;
+\*--------------------------------------*/
+
+.textDisplay {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 3vh;
+    font-family: Barlow;
+}

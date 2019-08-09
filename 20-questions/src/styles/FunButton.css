@@ -1,0 +1,8 @@
+/*--------------------------------------*\
+           FunButton : medium size;
+\*--------------------------------------*/
+
+.funButton {
+    margin: 30px;
+    display: table-cell;
+}
