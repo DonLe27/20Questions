@@ -2,17 +2,7 @@ import React from 'react';
 import FunButton from './FunButton';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar'
 import TextDisplay from './TextDisplay'
-const questions = [
-    "Ya like jazz?",
-    "Mood?", 
-    "Thoughts?"
-]
-const games = [
-    "20 Questions, let's get spicy ;)",
-    "Two truths, one lie.", 
-    "Secret for secret?"
-]
-const stories = []
+export {questions, games, stories} from '../Contents'
 const toolbarStyle = {
     margin: 'auto',
     width: '50%',
@@ -33,6 +23,7 @@ class App extends React.Component {
 
     changeContents(label){
         console.log(label)
+        console.log(stories)
         if(label === "question"){
             let i = Math.floor(Math.random() * questions.length); 
             this.setState({
